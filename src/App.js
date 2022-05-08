@@ -1,17 +1,17 @@
-import './App.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './pages';
-import SignInPage from './pages/signin';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages";
+import SignInPage from "./pages/signin";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/signin" component={SignInPage} />
-      </Switch>
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route path="/signin" element={<SignInPage />} />
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;
