@@ -2,11 +2,11 @@ import styled from 'styled-components';
 import { Link } from 'react-scroll';
 
 export const Button = styled(Link)`
-    border-radius: 50px;
+    border-radius: 3.125rem;
     background: ${({primary}) => primary ? '#01bf71' : '#010606'};
-    padding: ${({big}) => big ? '14px 48px' : '12px 30px'};
+    padding: ${({big}) => big ? '0.875rem 3rem' : '0.75rem 1.875rem'};
     color: ${({dark}) => dark ? '#010606' : '#fff' };
-    font-size: ${({fontBig}) => fontBig ? '20px' : '16px'};
+    font-size: ${({fontBig}) => fontBig ? '1.25rem' : '1rem'};
     outline: none;
     border: none;
     cursor: pointer;

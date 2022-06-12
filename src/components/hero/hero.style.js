@@ -68,25 +68,25 @@ export const HeroH1 = styled.h1`
     }
 `
 export const HeroP = styled.p`
-    margin-top: 24px;
+    margin-top: 1.5rem;
     color: #fff;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
     max-width: 600px;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     
     @media screen and (max-width: 768px) {
-        font-size: 22px ;
+        font-size: 1.375rem;
     }
     @media screen and (max-width: 425px) {
-        font-size: 18px ;
+        font-size: 1.125rem;
     }
 `
 export const ArrowForward = styled(MdArrowForward)`
-    margin-left: 8px;
-    font-size: 20px;
+    margin-left: 0.5rem;
+    font-size: 1.25rem;
 `
 export const ArrowRight = styled(MdKeyboardArrowRight)`
-    margin-left: 8px;
-    font-size: 20px;
+    margin-left: 0.8rem;
+    font-size: 1.25rem;
 `

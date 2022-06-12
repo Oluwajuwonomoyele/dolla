@@ -5,7 +5,7 @@ import { Link as LinkS} from 'react-scroll';
 
 export const Header = styled.header`
     background: ${({ scrollNav }) => scrollNav ? '#000' : 'transparent'};
-    margin-top: -80px;
+    margin-top: -5rem;
     height: 80px;
     position: sticky;
     top: 0;
@@ -21,7 +21,7 @@ export const HeaderContainer = styled.div`
     z-index: 1;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 1.25rem;
 `
 
 export const Logo = styled(LinkR)`
@@ -30,7 +30,7 @@ export const Logo = styled(LinkR)`
     font-size: 1.5rem;
     align-items: center;
     display: flex;
-    margin-left: 24px;
+    margin-left: 1.5rem;
     font-weight: bold;
     text-decoration: none;
 `
@@ -67,15 +67,15 @@ export const NavLink = styled(LinkS)`
 
     &.active {
         border-bottom: 3px solid #01bf71;
-        border-radius: 20px;
+        border-radius: 1.25rem;
     }
 `
 
 export const SignIn = styled(LinkR)`
-    border-radius: 50px;
+    border-radius: 3.125rem;
     background: #01bf71;
-    padding: 10px 22px;
-    font-size: 16px;
+    padding: 0.625rem 1.375rem;
+    font-size: 1rem;
     color: #010606;
     text-decoration: none;
     outline: none;

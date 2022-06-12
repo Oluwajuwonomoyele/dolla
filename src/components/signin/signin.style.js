@@ -23,17 +23,17 @@ export const FormWrapper = styled.div`
     }
 `
 export const Icon = styled(Link)`
-    margin-left: 32px;
-    margin-top: 32px;
+    margin-left: 2ren;
+    margin-top: 2rem;
     text-decoration: none;
     color: #fff;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2rem;
 
     
     @media screen and (max-width: 425px) {
-        margin-left: 16px;
-        margin-top: 8px;
+        margin-left: 1rem;
+        margin-top: 0.5rem;
     }
 `
 
@@ -44,7 +44,7 @@ export const FormContent = styled.div`
     justify-content: center;
 
     @media screen and (max-width: 425px) {
-        padding: 10px;
+        padding: 0.625rem;
     }
 `
 
@@ -56,33 +56,33 @@ export const Form = styled.form`
     z-index: 1;
     display: grid;
     margin: 0 auto;
-    padding: 80px 32px;
-    border-radius: 4px;
+    padding: 5rem 2rem;
+    border-radius: 0.25rem;
     box-shadow: 0 1px 3px rgba(0,0,0,0.9);
 
     
     @media screen and (max-width: 425px) {
-        padding: 32px 32px;
+        padding: 2rem 2rem;
     }
 `
 
 export const FormH1 = styled.h1`
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     text-align: center;
 `
 export const FormLabel = styled.label`
-    margin-bottom: 8px;
-    font-size: 14px;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
     color: #fff;
 `
 export const FormInput = styled.input`
-    padding: 16px;
-    margin-bottom: 32px;
+    padding: 1rem;
+    margin-bottom: 2rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.25rem;
 
     &:focus {
         outline: none;
@@ -90,18 +90,18 @@ export const FormInput = styled.input`
 `
 export const FormButton = styled.button`
     background: #01bf71;
-    padding: 16px 0;
+    padding: 1rem 0;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     color: #fff;
     font-size: 20px;
     cursor: pointer;
 `
 export const Text = styled.span`
     text-align: center;
-    margin-top: 24px;
+    margin-top: 1.25rem;
     color: #fff;
-    font-size: 14px;
+    font-size: 0.875rem;
     cursor: pointer;
 
     &:hover {

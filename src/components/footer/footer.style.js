@@ -6,7 +6,7 @@ export const FooterSection = styled.footer`
     background-color: #101522;
 `
 export const FooterContainer = styled.div`
-    padding: 48px 24px;
+    padding: 3rem 1.5rem;
     display: flex;
     justify-content: center;
     gap: 8rem;
@@ -40,7 +40,7 @@ export const FooterLink = styled(Link)`
     text-decoration: none;
     color: #fff;
     margin-bottom: 0.5rem;
-    font-size: 15px;
+    font-size: 0.938rem;
     transition: all 0.3s ease;
 
     &:hover {
@@ -48,14 +48,14 @@ export const FooterLink = styled(Link)`
     }
 `
 export const FooterLinkTitle = styled.h1`
-    font-size: 14px;
-    margin-bottom: 15px;
+    font-size: 0.875rem;
+    margin-bottom: 0.938rem;
 `
 export const Social = styled.div`
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    padding: 40px 30px
+    padding: 2.5rem 1.875rem;
 `
 export const SocialContainer = styled.div`
     display: flex;
@@ -86,5 +86,5 @@ export const SocialIcons = styled.div`
 `
 export const Icon = styled.a`
     color: #fff;
-    font-size: 24px;
+    font-size: 1.5rem;
 `

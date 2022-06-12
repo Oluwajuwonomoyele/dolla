@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import Footer from "../components/footer";
 import Hero from "../components/hero";
 import Info from "../components/info";
@@ -17,7 +16,7 @@ const Home = () => {
 
     return (
         <>
-            <Sidebar isOpen={isOpen} toggle={toggle} />{" "}
+            <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
             <Hero />
             <Info {...infoObjOne} />

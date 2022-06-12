@@ -66,11 +66,11 @@ export const SidebarLink = styled(LinkS)`
 `
 
 export const SignIn = styled(LinkR)`
-    border-radius: 50px;
+    border-radius: 3.125rem;
     background-color: #01bf71;
-    padding: 16px 64px;
+    padding: 1rem 4rem;
     color: #010606;
-    font-size: 16px;
+    font-size: 1rem;
     outline: none;
     border: none;
     cursor: pointer;
